@@ -1,0 +1,149 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-8'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-8957	CARBON-DIOXIDE + CROTONYL-COA + NADPH <=> CPD-9406 + NADP
+ISOCITDEH-RXN	CARBON-DIOXIDE + NADPH + 2-KETOGLUTARATE <=> NADP + THREO-DS-ISO-CITRATE
+PHOSACETYLTRANS-RXN	ACETYL-P + CO-A <=> ACETYL-COA + Pi
+2.8.3.7-RXN	CPD-627 + SUC <=> SUC-COA + S-CITRAMALATE
+RXN-12957	Acceptor + GLUTARYL-COA <=> Donor-H2 + GLUTACONYL-COA
+RXN-9092	ATP + CO-A + 4-HYDROXY-BUTYRATE <=> AMP + PPI + 4-HYDROXY-BUTYRYL-COA
+S-2-METHYLMALATE-DEHYDRATASE-RXN	S-CITRAMALATE <=> MESACONATE + WATER
+RXN-7566	GLY + PROTON + Pi + Red-Thioredoxin <=> ACETYL-P + AMMONIUM + Ox-Thioredoxin + WATER
+METHYLASPARTATE-MUTASE-RXN	L-THREO-3-METHYL-ASPARTATE <=> GLT
+RXN-13230	CPD-9408 <=> CPD-14205
+RXN-8965	CPD-14205 + WATER <=> CPD-627
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN	NADH + PROTON + SUCC-S-ALD <=> NAD + 4-HYDROXY-BUTYRATE
+METHYLASPARTATE-AMMONIA-LYASE-RXN	AMMONIUM + MESACONATE <=> L-THREO-3-METHYL-ASPARTATE
+GLUTARYL-COA-DEHYDROG-RXN	ETF-Reduced + GLUTACONYL-COA <=> ETF-Oxidized + GLUTARYL-COA + PROTON
+RXN-16391	CPD-9406 <=> CPD-17635
+RXN-8958	CPD-17635 <=> CPD-9407
+GLYCINE-AMINOTRANSFERASE-RXN	GLT + GLYOX <=> GLY + 2-KETOGLUTARATE
+RXN-8890	4-HYDROXY-BUTYRYL-COA <=> CROTONYL-COA + WATER
+RXN-8959	CPD-9407 + ETF-Oxidized + PROTON <=> CPD-9408 + ETF-Reduced
+ISOCIT-CLEAV-RXN	THREO-DS-ISO-CITRATE <=> GLYOX + SUC
+RXN-8891	NADPH + PROTON + SUC-COA <=> CO-A + NADP + SUCC-S-ALD
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+Ox-Thioredoxin	metacyc.compound:Ox-Thioredoxin
+4-HYDROXY-BUTYRATE	metacyc.compound:4-HYDROXY-BUTYRATE
+CPD-14205	metacyc.compound:CPD-14205
+THREO-DS-ISO-CITRATE	metacyc.compound:THREO-DS-ISO-CITRATE
+GLT	metacyc.compound:GLT
+AMP	metacyc.compound:AMP
+SUC-COA	metacyc.compound:SUC-COA
+AMMONIUM	metacyc.compound:AMMONIUM
+4-HYDROXY-BUTYRYL-COA	metacyc.compound:4-HYDROXY-BUTYRYL-COA
+CPD-9408	metacyc.compound:CPD-9408
+Acceptor	metacyc.compound:Acceptor
+NAD	metacyc.compound:NAD
+ACETYL-COA	metacyc.compound:ACETYL-COA
+S-CITRAMALATE	metacyc.compound:S-CITRAMALATE
+ATP	metacyc.compound:ATP
+GLY	metacyc.compound:GLY
+NADPH	metacyc.compound:NADPH
+NADH	metacyc.compound:NADH
+GLUTACONYL-COA	metacyc.compound:GLUTACONYL-COA
+ACETYL-P	metacyc.compound:ACETYL-P
+CROTONYL-COA	metacyc.compound:CROTONYL-COA
+L-THREO-3-METHYL-ASPARTATE	metacyc.compound:L-THREO-3-METHYL-ASPARTATE
+ETF-Reduced	metacyc.compound:ETF-Reduced
+PPI	metacyc.compound:PPI
+MESACONATE	metacyc.compound:MESACONATE
+NADP	metacyc.compound:NADP
+SUCC-S-ALD	metacyc.compound:SUCC-S-ALD
+GLYOX	metacyc.compound:GLYOX
+CPD-9407	metacyc.compound:CPD-9407
+PROTON	metacyc.compound:PROTON
+CPD-627	metacyc.compound:CPD-627
+WATER	metacyc.compound:WATER
+CPD-9406	metacyc.compound:CPD-9406
+Red-Thioredoxin	metacyc.compound:Red-Thioredoxin
+CPD-17635	metacyc.compound:CPD-17635
+2-KETOGLUTARATE	metacyc.compound:2-KETOGLUTARATE
+SUC	metacyc.compound:SUC
+CO-A	metacyc.compound:CO-A
+Pi	metacyc.compound:Pi
+GLUTARYL-COA	metacyc.compound:GLUTARYL-COA
+ETF-Oxidized	metacyc.compound:ETF-Oxidized
+CARBON-DIOXIDE	metacyc.compound:CARBON-DIOXIDE
+Donor-H2	metacyc.compound:Donor-H2
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-8957	5.0
+rate of reaction	ISOCITDEH-RXN	5.0
+rate of reaction	PHOSACETYLTRANS-RXN	5.0
+rate of reaction	2.8.3.7-RXN	5.0
+rate of reaction	RXN-12957	5.0
+rate of reaction	RXN-9092	5.0
+rate of reaction	S-2-METHYLMALATE-DEHYDRATASE-RXN	5.0
+rate of reaction	RXN-7566	5.0
+rate of reaction	METHYLASPARTATE-MUTASE-RXN	5.0
+rate of reaction	RXN-13230	5.0
+rate of reaction	RXN-8965	5.0
+rate of reaction	4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN	5.0
+rate of reaction	METHYLASPARTATE-AMMONIA-LYASE-RXN	5.0
+rate of reaction	GLUTARYL-COA-DEHYDROG-RXN	5.0
+rate of reaction	RXN-16391	5.0
+rate of reaction	RXN-8958	5.0
+rate of reaction	GLYCINE-AMINOTRANSFERASE-RXN	5.0
+rate of reaction	RXN-8890	5.0
+rate of reaction	RXN-8959	5.0
+rate of reaction	ISOCIT-CLEAV-RXN	5.0
+rate of reaction	RXN-8891	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	Ox-Thioredoxin	0.001	10
+concentration	4-HYDROXY-BUTYRATE	0.001	10
+concentration	CPD-14205	0.001	10
+concentration	THREO-DS-ISO-CITRATE	0.001	10
+concentration	GLT	0.001	10
+concentration	AMP	0.001	10
+concentration	SUC-COA	0.001	10
+concentration	AMMONIUM	0.001	10
+concentration	4-HYDROXY-BUTYRYL-COA	0.001	10
+concentration	CPD-9408	0.001	10
+concentration	Acceptor	0.001	10
+concentration	NAD	0.001	10
+concentration	ACETYL-COA	0.001	10
+concentration	S-CITRAMALATE	0.001	10
+concentration	ATP	0.001	10
+concentration	GLY	0.001	10
+concentration	NADPH	0.001	10
+concentration	NADH	0.001	10
+concentration	GLUTACONYL-COA	0.001	10
+concentration	ACETYL-P	0.001	10
+concentration	CROTONYL-COA	0.001	10
+concentration	L-THREO-3-METHYL-ASPARTATE	0.001	10
+concentration	ETF-Reduced	0.001	10
+concentration	PPI	0.001	10
+concentration	MESACONATE	0.001	10
+concentration	NADP	0.001	10
+concentration	SUCC-S-ALD	0.001	10
+concentration	GLYOX	0.001	10
+concentration	CPD-9407	0.001	10
+concentration	PROTON	0.001	10
+concentration	CPD-627	0.001	10
+concentration	WATER	0.001	10
+concentration	CPD-9406	0.001	10
+concentration	Red-Thioredoxin	0.001	10
+concentration	CPD-17635	0.001	10
+concentration	2-KETOGLUTARATE	0.001	10
+concentration	SUC	0.001	10
+concentration	CO-A	0.001	10
+concentration	Pi	0.001	10
+concentration	GLUTARYL-COA	0.001	10
+concentration	ETF-Oxidized	0.001	10
+concentration	CARBON-DIOXIDE	0.001	10
+concentration	Donor-H2	0.001	10
+

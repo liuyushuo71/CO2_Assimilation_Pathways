@@ -1,0 +1,133 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-8'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-18384	ACRYLYL-COA + CARBON-DIOXIDE + NADPH <=> METHYL-MALONYL-COA + NADP
+PEPCARBOX-RXN	HCO3 + PHOSPHO-ENOL-PYRUVATE <=> OXALACETIC + Pi
+PYRUVFORMLY-RXN	ACETYL-COA + FORMATE <=> CO-A + PYRUVATE
+RXN-16767	CPD-18087 <=> NADH
+HOMOSERDEAM-RXN	HOMO-SER <=> AMMONIUM + 2-OXOBUTANOATE
+1.4.1.21-RXN-L-ASPARTATE/NADP/WATER//OXALACETIC_ACID/AMMONIUM/NADPH/PROTON.62.	AMMONIUM + NADPH + OXALACETIC + PROTON <=> L-ASPARTATE + NADP + WATER
+KETOBUTFORMLY-RXN	CO-A + 2-OXOBUTANOATE <=> FORMATE + PROPIONYL-COA
+HOMOSERDEHYDROG-RXN-HOMO-SER/NADP//L-ASPARTATE-SEMIALDEHYDE/NADPH/PROTON.53.	L-ASPARTATE-SEMIALDEHYDE + NADPH + PROTON <=> HOMO-SER + NADP
+MALYL-COA-LYASE-RXN	CPD-208 <=> ACETYL-COA + GLYOX
+RXN-14047	THREO-DS-ISO-CITRATE <=> CIT
+MALATE-DEH-RXN[CCO-CYTOSOL]-MAL/NAD//OXALACETIC_ACID/NADH/PROTON.50.	NADH + OXALACETIC + PROTON <=> MAL + NAD
+PEPDEPHOS-RXN	ATP + PYRUVATE <=> ADP + PHOSPHO-ENOL-PYRUVATE + PROTON
+ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	L-BETA-ASPARTYL-P + NADPH + PROTON <=> L-ASPARTATE-SEMIALDEHYDE + NADP + Pi
+RXN-15977	OXYGEN-MOLECULE + PROPIONYL-COA <=> ACRYLYL-COA + HYDROGEN-PEROXIDE
+RXN-16774	HYDROGEN-PEROXIDE + NAD <=> CPD-18087 + OXYGEN-MOLECULE + PROTON
+ASPARTATEKIN-RXN	ATP + L-ASPARTATE <=> ADP + L-BETA-ASPARTYL-P
+RXN-8964	MAL + SUC-COA <=> CPD-208 + SUC
+METHYLMALONYL-COA-MUT-RXN	METHYL-MALONYL-COA <=> SUC-COA
+ISOCIT-CLEAV-RXN	GLYOX + SUC <=> THREO-DS-ISO-CITRATE
+ATP-CITRATE-PRO-S--LYASE-RXN	ATP + CIT + CO-A <=> ACETYL-COA + ADP + OXALACETIC + Pi
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+L-ASPARTATE	metacyc.compound:L-ASPARTATE
+THREO-DS-ISO-CITRATE	metacyc.compound:THREO-DS-ISO-CITRATE
+ADP	metacyc.compound:ADP
+HOMO-SER	metacyc.compound:HOMO-SER
+AMMONIUM	metacyc.compound:AMMONIUM
+SUC-COA	metacyc.compound:SUC-COA
+OXYGEN-MOLECULE	metacyc.compound:OXYGEN-MOLECULE
+MAL	metacyc.compound:MAL
+PROPIONYL-COA	metacyc.compound:PROPIONYL-COA
+NAD	metacyc.compound:NAD
+ACETYL-COA	metacyc.compound:ACETYL-COA
+HCO3	metacyc.compound:HCO3
+OXALACETIC	bigg.metabolite:OXALACETIC
+CPD-18087	metacyc.compound:CPD-18087
+ATP	metacyc.compound:ATP
+NADPH	metacyc.compound:NADPH
+NADH	metacyc.compound:NADH
+HYDROGEN-PEROXIDE	metacyc.compound:HYDROGEN-PEROXIDE
+2-OXOBUTANOATE	metacyc.compound:2-OXOBUTANOATE
+ACRYLYL-COA	metacyc.compound:ACRYLYL-COA
+CIT	metacyc.compound:CIT
+L-BETA-ASPARTYL-P	metacyc.compound:L-BETA-ASPARTYL-P
+NADP	metacyc.compound:NADP
+PHOSPHO-ENOL-PYRUVATE	metacyc.compound:PHOSPHO-ENOL-PYRUVATE
+FORMATE	metacyc.compound:FORMATE
+GLYOX	metacyc.compound:GLYOX
+CARBON-DIOXIDE	metacyc.compound:CARBON-DIOXIDE
+PROTON	metacyc.compound:PROTON
+WATER	metacyc.compound:WATER
+L-ASPARTATE-SEMIALDEHYDE	metacyc.compound:L-ASPARTATE-SEMIALDEHYDE
+CPD-208	metacyc.compound:CPD-208
+SUC	metacyc.compound:SUC
+CO-A	metacyc.compound:CO-A
+Pi	metacyc.compound:Pi
+PYRUVATE	metacyc.compound:PYRUVATE
+METHYL-MALONYL-COA	metacyc.compound:METHYL-MALONYL-COA
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-18384	5.0
+rate of reaction	PEPCARBOX-RXN	5.0
+rate of reaction	PYRUVFORMLY-RXN	5.0
+rate of reaction	RXN-16767	5.0
+rate of reaction	HOMOSERDEAM-RXN	5.0
+rate of reaction	1.4.1.21-RXN-L-ASPARTATE/NADP/WATER//OXALACETIC_ACID/AMMONIUM/NADPH/PROTON.62.	5.0
+rate of reaction	KETOBUTFORMLY-RXN	5.0
+rate of reaction	HOMOSERDEHYDROG-RXN-HOMO-SER/NADP//L-ASPARTATE-SEMIALDEHYDE/NADPH/PROTON.53.	5.0
+rate of reaction	MALYL-COA-LYASE-RXN	5.0
+rate of reaction	RXN-14047	5.0
+rate of reaction	MALATE-DEH-RXN[CCO-CYTOSOL]-MAL/NAD//OXALACETIC_ACID/NADH/PROTON.50.	5.0
+rate of reaction	PEPDEPHOS-RXN	5.0
+rate of reaction	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	5.0
+rate of reaction	RXN-15977	5.0
+rate of reaction	RXN-16774	5.0
+rate of reaction	ASPARTATEKIN-RXN	5.0
+rate of reaction	RXN-8964	5.0
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	5.0
+rate of reaction	ISOCIT-CLEAV-RXN	5.0
+rate of reaction	ATP-CITRATE-PRO-S--LYASE-RXN	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	L-ASPARTATE	0.001	10
+concentration	THREO-DS-ISO-CITRATE	0.001	10
+concentration	ADP	0.001	10
+concentration	HOMO-SER	0.001	10
+concentration	AMMONIUM	0.001	10
+concentration	SUC-COA	0.001	10
+concentration	OXYGEN-MOLECULE	0.001	10
+concentration	MAL	0.001	10
+concentration	PROPIONYL-COA	0.001	10
+concentration	NAD	0.001	10
+concentration	ACETYL-COA	0.001	10
+concentration	HCO3	0.001	10
+concentration	OXALACETIC	0.001	10
+concentration	CPD-18087	0.001	10
+concentration	ATP	0.001	10
+concentration	NADPH	0.001	10
+concentration	NADH	0.001	10
+concentration	HYDROGEN-PEROXIDE	0.001	10
+concentration	2-OXOBUTANOATE	0.001	10
+concentration	ACRYLYL-COA	0.001	10
+concentration	CIT	0.001	10
+concentration	L-BETA-ASPARTYL-P	0.001	10
+concentration	NADP	0.001	10
+concentration	PHOSPHO-ENOL-PYRUVATE	0.001	10
+concentration	FORMATE	0.001	10
+concentration	GLYOX	0.001	10
+concentration	CARBON-DIOXIDE	0.001	10
+concentration	PROTON	0.001	10
+concentration	WATER	0.001	10
+concentration	L-ASPARTATE-SEMIALDEHYDE	0.001	10
+concentration	CPD-208	0.001	10
+concentration	SUC	0.001	10
+concentration	CO-A	0.001	10
+concentration	Pi	0.001	10
+concentration	PYRUVATE	0.001	10
+concentration	METHYL-MALONYL-COA	0.001	10
+

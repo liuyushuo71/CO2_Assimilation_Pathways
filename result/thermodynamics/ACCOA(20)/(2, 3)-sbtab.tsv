@@ -1,0 +1,105 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-8'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-18384	ACRYLYL-COA + CARBON-DIOXIDE + NADPH <=> METHYL-MALONYL-COA + NADP
+ACETYL-COA-CARBOXYLTRANSFER-RXN	ACETYL-COA + ATP + HCO3 <=> ADP + MALONYL-COA + PROTON + Pi
+RXN-8974	MALONATE-S-ALD + NADPH + PROTON <=> NADP + 3-HYDROXY-PROPIONATE
+MALYL-COA-LYASE-RXN	CPD-208 <=> ACETYL-COA + GLYOX
+RXN-14047	THREO-DS-ISO-CITRATE <=> CIT
+RXN-9086	ATP + CO-A + 3-HYDROXY-PROPIONATE <=> AMP + PPI + 3-HYDROXY-PROPIONYL-COA
+MALATE-DEH-RXN[CCO-CYTOSOL]-MAL/NAD//OXALACETIC_ACID/NADH/PROTON.50.	NADH + OXALACETIC + PROTON <=> MAL + NAD
+RXN-8963	MALONYL-COA + NADPH + PROTON <=> CO-A + MALONATE-S-ALD + NADP
+RXN-8964	MAL + SUC-COA <=> CPD-208 + SUC
+RXN-6383	3-HYDROXY-PROPIONYL-COA <=> ACRYLYL-COA + WATER
+METHYLMALONYL-COA-MUT-RXN	METHYL-MALONYL-COA <=> SUC-COA
+ISOCIT-CLEAV-RXN	GLYOX + SUC <=> THREO-DS-ISO-CITRATE
+ATP-CITRATE-PRO-S--LYASE-RXN	ATP + CIT + CO-A <=> ACETYL-COA + ADP + OXALACETIC + Pi
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+MALONYL-COA	metacyc.compound:MALONYL-COA
+3-HYDROXY-PROPIONATE	metacyc.compound:3-HYDROXY-PROPIONATE
+THREO-DS-ISO-CITRATE	metacyc.compound:THREO-DS-ISO-CITRATE
+ADP	metacyc.compound:ADP
+AMP	metacyc.compound:AMP
+SUC-COA	metacyc.compound:SUC-COA
+NAD	metacyc.compound:NAD
+ACETYL-COA	metacyc.compound:ACETYL-COA
+ATP	metacyc.compound:ATP
+HCO3	metacyc.compound:HCO3
+3-HYDROXY-PROPIONYL-COA	metacyc.compound:3-HYDROXY-PROPIONYL-COA
+OXALACETIC	bigg.metabolite:OXALACETIC
+NADPH	metacyc.compound:NADPH
+NADH	metacyc.compound:NADH
+ACRYLYL-COA	metacyc.compound:ACRYLYL-COA
+CIT	metacyc.compound:CIT
+PPI	metacyc.compound:PPI
+NADP	metacyc.compound:NADP
+MALONATE-S-ALD	metacyc.compound:MALONATE-S-ALD
+GLYOX	metacyc.compound:GLYOX
+CARBON-DIOXIDE	metacyc.compound:CARBON-DIOXIDE
+PROTON	metacyc.compound:PROTON
+WATER	metacyc.compound:WATER
+CPD-208	metacyc.compound:CPD-208
+SUC	metacyc.compound:SUC
+CO-A	metacyc.compound:CO-A
+Pi	metacyc.compound:Pi
+MAL	metacyc.compound:MAL
+METHYL-MALONYL-COA	metacyc.compound:METHYL-MALONYL-COA
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-18384	5.0
+rate of reaction	ACETYL-COA-CARBOXYLTRANSFER-RXN	5.0
+rate of reaction	RXN-8974	5.0
+rate of reaction	MALYL-COA-LYASE-RXN	5.0
+rate of reaction	RXN-14047	5.0
+rate of reaction	RXN-9086	5.0
+rate of reaction	MALATE-DEH-RXN[CCO-CYTOSOL]-MAL/NAD//OXALACETIC_ACID/NADH/PROTON.50.	5.0
+rate of reaction	RXN-8963	5.0
+rate of reaction	RXN-8964	5.0
+rate of reaction	RXN-6383	5.0
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	5.0
+rate of reaction	ISOCIT-CLEAV-RXN	5.0
+rate of reaction	ATP-CITRATE-PRO-S--LYASE-RXN	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	MALONYL-COA	0.001	10
+concentration	3-HYDROXY-PROPIONATE	0.001	10
+concentration	THREO-DS-ISO-CITRATE	0.001	10
+concentration	ADP	0.001	10
+concentration	AMP	0.001	10
+concentration	SUC-COA	0.001	10
+concentration	NAD	0.001	10
+concentration	ACETYL-COA	0.001	10
+concentration	ATP	0.001	10
+concentration	HCO3	0.001	10
+concentration	3-HYDROXY-PROPIONYL-COA	0.001	10
+concentration	OXALACETIC	0.001	10
+concentration	NADPH	0.001	10
+concentration	NADH	0.001	10
+concentration	ACRYLYL-COA	0.001	10
+concentration	CIT	0.001	10
+concentration	PPI	0.001	10
+concentration	NADP	0.001	10
+concentration	MALONATE-S-ALD	0.001	10
+concentration	GLYOX	0.001	10
+concentration	CARBON-DIOXIDE	0.001	10
+concentration	PROTON	0.001	10
+concentration	WATER	0.001	10
+concentration	CPD-208	0.001	10
+concentration	SUC	0.001	10
+concentration	CO-A	0.001	10
+concentration	Pi	0.001	10
+concentration	MAL	0.001	10
+concentration	METHYL-MALONYL-COA	0.001	10
+
