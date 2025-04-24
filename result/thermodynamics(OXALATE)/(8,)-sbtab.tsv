@@ -1,0 +1,109 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+PYRUVATE-CARBOXYLASE-RXN	C00002 + C00288 + C00022 <=> C00008 + C00036 + C00080 + C00009
+PYRUVFORMLY-RXN	C00024 + C00058 <=> C00010 + C00022
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+RXN-15632-L-LACTATE/NADP//PYRUVATE/NADPH/PROTON.38.	C00186 + C00006 <=> C00005 + C00080 + C00022
+HOMOSERDEAM-RXN	C00263 <=> C00014 + C00109
+1.4.1.21-RXN-L-ASPARTATE/NAD/WATER//OXALACETIC_ACID/AMMONIUM/NADH/PROTON.60.	C00014 + C00004 + C00036 + C00080 <=> C00049 + C00003 + C00001
+KETOBUTFORMLY-RXN	C00010 + C00109 <=> C00058 + C00100
+HOMOSERDEHYDROG-RXN-HOMO-SER/NADP//L-ASPARTATE-SEMIALDEHYDE/NADPH/PROTON.53.	C00441 + C00005 + C00080 <=> C00263 + C00006
+OXALOACETASE-RXN	C00036 + C00001 <=> C00033 + C00209 + C00080
+ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	C03082 + C00005 + C00080 <=> C00441 + C00006 + C00009
+RXN-781	C00894 + C00001 <=> C00827
+ASPARTATEKIN-RXN	C00002 + C00049 <=> C00008 + C03082
+RXN-15724	C00033 + C00827 <=> C00024 + C00186
+PROPCOASYN-RXN	C04253 + C00100 + C00080 <=> C00894 + ETF__45__Reduced
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00209	kegg:C00209
+C04253	kegg:C04253
+C00002	kegg:C00002
+C00004	kegg:C00004
+C00010	kegg:C00010
+C00014	kegg:C00014
+C00109	kegg:C00109
+C00005	kegg:C00005
+C00003	kegg:C00003
+C00080	kegg:C00080
+C00441	kegg:C00441
+C00058	kegg:C00058
+C03082	kegg:C03082
+C00006	kegg:C00006
+C00033	kegg:C00033
+C00100	kegg:C00100
+C00186	kegg:C00186
+C00827	kegg:C00827
+C00008	kegg:C00008
+C00036	kegg:C00036
+C00288	kegg:C00288
+C00263	kegg:C00263
+C00024	kegg:C00024
+C00049	kegg:C00049
+ETF__45__Reduced	bigg.metabolite:ETF__45__Reduced
+C00011	kegg:C00011
+C00009	kegg:C00009
+C00022	kegg:C00022
+C00894	kegg:C00894
+C00001	kegg:C00001
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	PYRUVATE-CARBOXYLASE-RXN	10.0
+rate of reaction	PYRUVFORMLY-RXN	5.0
+rate of reaction	RXN0-5224	10.0
+rate of reaction	RXN-15632-L-LACTATE/NADP//PYRUVATE/NADPH/PROTON.38.	5.0
+rate of reaction	HOMOSERDEAM-RXN	5.0
+rate of reaction	1.4.1.21-RXN-L-ASPARTATE/NAD/WATER//OXALACETIC_ACID/AMMONIUM/NADH/PROTON.60.	5.0
+rate of reaction	KETOBUTFORMLY-RXN	5.0
+rate of reaction	HOMOSERDEHYDROG-RXN-HOMO-SER/NADP//L-ASPARTATE-SEMIALDEHYDE/NADPH/PROTON.53.	5.0
+rate of reaction	OXALOACETASE-RXN	5.0
+rate of reaction	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	5.0
+rate of reaction	RXN-781	5.0
+rate of reaction	ASPARTATEKIN-RXN	5.0
+rate of reaction	RXN-15724	5.0
+rate of reaction	PROPCOASYN-RXN	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00209	0.001	10
+concentration	C04253	0.001	10
+concentration	C00002	0.001	10
+concentration	C00004	0.001	10
+concentration	C00010	0.001	10
+concentration	C00014	0.001	10
+concentration	C00109	0.001	10
+concentration	C00005	0.001	10
+concentration	C00003	0.001	10
+concentration	C00080	0.001	10
+concentration	C00441	0.001	10
+concentration	C00058	0.001	10
+concentration	C03082	0.001	10
+concentration	C00006	0.001	10
+concentration	C00033	0.001	10
+concentration	C00100	0.001	10
+concentration	C00186	0.001	10
+concentration	C00827	0.001	10
+concentration	C00008	0.001	10
+concentration	C00036	0.001	10
+concentration	C00288	0.001	10
+concentration	C00263	0.001	10
+concentration	C00024	0.001	10
+concentration	C00049	0.001	10
+concentration	ETF__45__Reduced	0.001	10
+concentration	C00011	0.001	10
+concentration	C00009	0.001	10
+concentration	C00022	0.001	10
+concentration	C00894	0.001	10
+concentration	C00001	0.001	10
+
