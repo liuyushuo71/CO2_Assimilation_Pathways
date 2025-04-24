@@ -1,0 +1,111 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-8957	C00011 + C00877 + C00005 <=> C18026 + C00006
+PROPIONYL-COA-CARBOXY-RXN	C00002 + C00288 + C00100 <=> C00008 + C00683 + C00080 + C00009
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+OXALOACETASE-RXN	C00036 + C00001 <=> C00033 + C00209 + C00080
+RXN-11667	C01144 <=> C00877 + C00001
+RXN-11662	C00332 + C00004 + C00080 <=> C00003 + C01144
+RXN-13230	C06028 <=> C18323
+RXN-8965	C18323 + C00001 <=> C01011
+2.1.3.1-RXN	C00683 + C00022 <=> C00036 + C00100
+CITRAMALYL-COA-LYASE-RXN	C01011 <=> C00024 + C00022
+ACETYL-COA-ACETYLTRANSFER-RXN	2.0 C00024 <=> C00332 + C00010
+RXN-16391	C18026 <=> C20238
+RXN-8958	C20238 <=> C18324
+ACETATE--COA-LIGASE-ADP-FORMING-RXN	C00033 + C00002 + C00010 <=> C00024 + C00008 + C00009
+RXN-8959	C18324 + C04253 + C00080 <=> C06028 + ETF__45__Reduced
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00209	kegg:C00209
+C04253	kegg:C04253
+C00002	kegg:C00002
+C00004	kegg:C00004
+C00010	kegg:C00010
+C00005	kegg:C00005
+C00003	kegg:C00003
+C06028	kegg:C06028
+C00080	kegg:C00080
+C00332	kegg:C00332
+C18323	kegg:C18323
+C01011	kegg:C01011
+C00006	kegg:C00006
+C00033	kegg:C00033
+C00100	kegg:C00100
+C20238	kegg:C20238
+C18026	kegg:C18026
+C00008	kegg:C00008
+C00036	kegg:C00036
+C00683	kegg:C00683
+C00288	kegg:C00288
+C00024	kegg:C00024
+ETF__45__Reduced	bigg.metabolite:ETF__45__Reduced
+C00011	kegg:C00011
+C00009	kegg:C00009
+C00022	kegg:C00022
+C18324	kegg:C18324
+C01144	kegg:C01144
+C00877	kegg:C00877
+C00001	kegg:C00001
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-8957	5.0
+rate of reaction	PROPIONYL-COA-CARBOXY-RXN	5.0
+rate of reaction	RXN0-5224	5.0
+rate of reaction	OXALOACETASE-RXN	5.0
+rate of reaction	RXN-11667	5.0
+rate of reaction	RXN-11662	5.0
+rate of reaction	RXN-13230	5.0
+rate of reaction	RXN-8965	5.0
+rate of reaction	2.1.3.1-RXN	5.0
+rate of reaction	CITRAMALYL-COA-LYASE-RXN	5.0
+rate of reaction	ACETYL-COA-ACETYLTRANSFER-RXN	5.0
+rate of reaction	RXN-16391	5.0
+rate of reaction	RXN-8958	5.0
+rate of reaction	ACETATE--COA-LIGASE-ADP-FORMING-RXN	5.0
+rate of reaction	RXN-8959	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00209	0.001	10
+concentration	C04253	0.001	10
+concentration	C00002	0.001	10
+concentration	C00004	0.001	10
+concentration	C00010	0.001	10
+concentration	C00005	0.001	10
+concentration	C00003	0.001	10
+concentration	C06028	0.001	10
+concentration	C00080	0.001	10
+concentration	C00332	0.001	10
+concentration	C18323	0.001	10
+concentration	C01011	0.001	10
+concentration	C00006	0.001	10
+concentration	C00033	0.001	10
+concentration	C00100	0.001	10
+concentration	C20238	0.001	10
+concentration	C18026	0.001	10
+concentration	C00008	0.001	10
+concentration	C00036	0.001	10
+concentration	C00683	0.001	10
+concentration	C00288	0.001	10
+concentration	C00024	0.001	10
+concentration	ETF__45__Reduced	0.001	10
+concentration	C00011	0.001	10
+concentration	C00009	0.001	10
+concentration	C00022	0.001	10
+concentration	C18324	0.001	10
+concentration	C01144	0.001	10
+concentration	C00877	0.001	10
+concentration	C00001	0.001	10
+

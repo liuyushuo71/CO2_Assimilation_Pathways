@@ -1,0 +1,15 @@
+reaction_id	reaction_formula	flux	original_standard_dg_prime	standard_dg_prime	physiological_dg_prime	optimized_dg_prime	shadow_price
+RXN-8957	C00005 + C00011 + C00877 = C00006 + C18026	5.0 millimolar / second	-39.850515858687686 kilojoule / mole	-36.95272004531468 kilojoule / mole	-19.837882510593644 kilojoule / mole	-10.445175151336015 kilojoule / mole	0.0
+PYRUVATE-CARBOXYLASE-RXN	C00002 + C00022 + C00288 = C00008 + C00009 + C00036 + C00080	5.0 millimolar / second	-4.927611499417402 kilojoule / mole	-4.838897684718282 kilojoule / mole	-4.838897684718282 kilojoule / mole	-26.709173296140836 kilojoule / mole	0.0
+RXN0-5224	C00001 + C00011 = C00080 + C00288	5.0 millimolar / second	-5.187235000808812 kilojoule / mole	-5.300891610662479 kilojoule / mole	-5.300891610662479 kilojoule / mole	-21.709365476196943 kilojoule / mole	0.0
+OXALOACETASE-RXN	C00001 + C00036 = C00033 + C00080 + C00209	5.0 millimolar / second	-52.54732631872473 kilojoule / mole	-53.53430056139958 kilojoule / mole	-70.64913809612061 kilojoule / mole	-73.80852388323106 kilojoule / mole	0.0
+RXN-11667	C01144 = C00001 + C00877	5.0 millimolar / second	3.27591793251122 kilojoule / mole	3.2759051988753733 kilojoule / mole	3.2759051988753733 kilojoule / mole	-7.5164326539235145 kilojoule / mole	0.0
+RXN-11662	C00004 + C00080 + C00332 = C00003 + C01144	5.0 millimolar / second	-16.889474845328778 kilojoule / mole	-16.889478286117352 kilojoule / mole	-16.889478286117352 kilojoule / mole	-8.07202879843507 kilojoule / mole	0.0
+RXN-13230	C06028 = C18323	5.0 millimolar / second	1.3574208423960954e-10 kilojoule / mole	1.3574208423960954e-10 kilojoule / mole	1.3574208423960954e-10 kilojoule / mole	-4.871500737182683 kilojoule / mole	0.2
+RXN-8965	C00001 + C18323 = C01011	5.0 millimolar / second	-0.3988046682220556 kilojoule / mole	-4.221853239926567 kilojoule / mole	-4.221853239926567 kilojoule / mole	-4.871500737191237 kilojoule / mole	0.2
+CITRAMALYL-COA-LYASE-RXN	C01011 = C00022 + C00024	5.0 millimolar / second	7.059838100394472 kilojoule / mole	8.384328636417312 kilojoule / mole	-8.730508898303722 kilojoule / mole	-6.1795706587175 kilojoule / mole	0.0
+ACETYL-COA-ACETYLTRANSFER-RXN	2 C00024 = C00010 + C00332	5.0 millimolar / second	24.96121615861489 kilojoule / mole	24.985327599206748 kilojoule / mole	24.985327599206748 kilojoule / mole	-6.455269042814231 kilojoule / mole	0.0
+RXN-16391	C18026 = C20238	5.0 millimolar / second	0.0 kilojoule / mole	0.0 kilojoule / mole	0.0 kilojoule / mole	-4.871500737183796 kilojoule / mole	0.2
+RXN-8958	C20238 = C18324	5.0 millimolar / second	0.0 kilojoule / mole	0.0 kilojoule / mole	0.0 kilojoule / mole	-4.871500737181521 kilojoule / mole	0.2
+ACETATE--COA-LIGASE-ADP-FORMING-RXN	C00002 + C00010 + C00033 = C00008 + C00009 + C00024	5.0 millimolar / second	4.750656085799392 kilojoule / mole	4.800770552556157 kilojoule / mole	4.800770552556157 kilojoule / mole	-8.067537284456527 kilojoule / mole	0.0
+RXN-8959	C00080 + C18324 = C06028	5.0 millimolar / second	-7.5268491326257845 kilojoule / mole	-8.725758759403641 kilojoule / mole	-8.725758759403641 kilojoule / mole	-4.871500737181118 kilojoule / mole	0.2
