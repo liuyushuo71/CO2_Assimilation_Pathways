@@ -1,0 +1,139 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+ACETYL-COA-CARBOXYLTRANSFER-RXN	C00024 + C00002 + C00288 <=> C00008 + C00083 + C00080 + C00009
+PYRUVATE-DEHYDROGENASE-NADP+-RXN	C00024 + C00011 + C00005 <=> C00010 + C00006 + C00022
+GCVMULTI-RXN-GLY/THF/NAD//METHYLENE-THF/AMMONIUM/CARBON-DIOXIDE/NADH.56.	C00014 + C00011 + C00143 + C00004 <=> C00037 + C00003 + C00101
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+2PGADEHYDRAT-RXN	C00074 + C00001 <=> C00631
+RXN-8974	C00222 + C00005 + C00080 <=> C00006 + C01013
+PHOSACETYLTRANS-RXN	C00227 + C00010 <=> C00024 + C00009
+RXN0-6562	C00001 + C03232 <=> C00168 + C00009
+RXN-7566	C00037 + C00080 + C00009 + C00342 <=> C00227 + C00014 + C00343 + C00001
+GLYOHMETRANS-RXN-SER/THF//GLY/METHYLENE-THF/WATER.33.	C00065 + C00101 <=> C00037 + C00143 + C00001
+RXN-15513	C00631 <=> C00197
+SERINE-GLYOXYLATE-AMINOTRANSFERASE-RXN	C00037 + C00168 <=> C00048 + C00065
+PEPDEPHOS-RXN	C00002 + C00022 <=> C00008 + C00074 + C00080
+RXN-13230	C06028 <=> C18323
+RXN-8965	C18323 + C00001 <=> C01011
+RXN-8968	C00002 + C00010 + C00005 + C00080 + C01013 <=> C00020 + C00006 + C00013 + C00100 + C00001
+RXN-8963	C00083 + C00005 + C00080 <=> C00010 + C00222 + C00006
+CITRAMALYL-COA-LYASE-RXN	C01011 <=> C00024 + C00022
+PGLYCDEHYDROG-RXN	C00197 + C00003 <=> C00004 + C00080 + C03232
+RXN-8960	C06027 <=> C06028 + C00001
+RXN-8961	C00048 + C00100 <=> C06027
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C06028	kegg:C06028
+C00037	kegg:C00037
+C00197	kegg:C00197
+C00143	kegg:C00143
+C00001	kegg:C00001
+C00288	kegg:C00288
+C00006	kegg:C00006
+C00083	kegg:C00083
+C00100	kegg:C00100
+C06027	kegg:C06027
+C00014	kegg:C00014
+C00009	kegg:C00009
+C00005	kegg:C00005
+C00022	kegg:C00022
+C00065	kegg:C00065
+C00011	kegg:C00011
+C01013	kegg:C01013
+C00343	kegg:C00343
+C00024	kegg:C00024
+C00013	kegg:C00013
+C00222	kegg:C00222
+C00048	kegg:C00048
+C00003	kegg:C00003
+C01011	kegg:C01011
+C03232	kegg:C03232
+C00080	kegg:C00080
+C18323	kegg:C18323
+C00631	kegg:C00631
+C00227	kegg:C00227
+C00101	kegg:C00101
+C00342	kegg:C00342
+C00020	kegg:C00020
+C00008	kegg:C00008
+C00004	kegg:C00004
+C00010	kegg:C00010
+C00002	kegg:C00002
+C00074	kegg:C00074
+C00168	kegg:C00168
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	ACETYL-COA-CARBOXYLTRANSFER-RXN	3.33333
+rate of reaction	PYRUVATE-DEHYDROGENASE-NADP+-RXN	3.33333
+rate of reaction	GCVMULTI-RXN-GLY/THF/NAD//METHYLENE-THF/AMMONIUM/CARBON-DIOXIDE/NADH.56.	3.33333
+rate of reaction	RXN0-5224	3.33333
+rate of reaction	2PGADEHYDRAT-RXN	6.66667
+rate of reaction	RXN-8974	3.33333
+rate of reaction	PHOSACETYLTRANS-RXN	3.33333
+rate of reaction	RXN0-6562	3.33333
+rate of reaction	RXN-7566	3.33333
+rate of reaction	GLYOHMETRANS-RXN-SER/THF//GLY/METHYLENE-THF/WATER.33.	3.33333
+rate of reaction	RXN-15513	6.66667
+rate of reaction	SERINE-GLYOXYLATE-AMINOTRANSFERASE-RXN	3.33333
+rate of reaction	PEPDEPHOS-RXN	6.66667
+rate of reaction	RXN-13230	3.33333
+rate of reaction	RXN-8965	3.33333
+rate of reaction	RXN-8968	3.33333
+rate of reaction	RXN-8963	3.33333
+rate of reaction	CITRAMALYL-COA-LYASE-RXN	3.33333
+rate of reaction	PGLYCDEHYDROG-RXN	3.33333
+rate of reaction	RXN-8960	3.33333
+rate of reaction	RXN-8961	3.33333
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C06028	0.001	10
+concentration	C00037	0.001	10
+concentration	C00197	0.001	10
+concentration	C00143	0.001	10
+concentration	C00001	0.001	10
+concentration	C00288	0.001	10
+concentration	C00006	0.001	10
+concentration	C00083	0.001	10
+concentration	C00100	0.001	10
+concentration	C06027	0.001	10
+concentration	C00014	0.001	10
+concentration	C00009	0.001	10
+concentration	C00005	0.001	10
+concentration	C00022	0.001	10
+concentration	C00065	0.001	10
+concentration	C00011	0.001	10
+concentration	C01013	0.001	10
+concentration	C00343	0.001	10
+concentration	C00024	0.001	10
+concentration	C00013	0.001	10
+concentration	C00222	0.001	10
+concentration	C00048	0.001	10
+concentration	C00003	0.001	10
+concentration	C01011	0.001	10
+concentration	C03232	0.001	10
+concentration	C00080	0.001	10
+concentration	C18323	0.001	10
+concentration	C00631	0.001	10
+concentration	C00227	0.001	10
+concentration	C00101	0.001	10
+concentration	C00342	0.001	10
+concentration	C00020	0.001	10
+concentration	C00008	0.001	10
+concentration	C00004	0.001	10
+concentration	C00010	0.001	10
+concentration	C00002	0.001	10
+concentration	C00074	0.001	10
+concentration	C00168	0.001	10
+
