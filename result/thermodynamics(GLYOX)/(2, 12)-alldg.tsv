@@ -1,0 +1,17 @@
+reaction_id	reaction_formula	flux	original_standard_dg_prime	standard_dg_prime	physiological_dg_prime	optimized_dg_prime	shadow_price
+RXN-18384	C00005 + C00011 + C00894 = C00006 + C01213	5.0 millimolar / second	-40.836293713945 kilojoule / mole	-40.789263551890876 kilojoule / mole	-23.674426017169843 kilojoule / mole	-19.333484807143684 kilojoule / mole	0.0
+RXN-13029	C00011 + C00136 = C00080 + C18026	5.0 millimolar / second	13.702958804193713 kilojoule / mole	13.957609603572505 kilojoule / mole	31.07244713829354 kilojoule / mole	5.1099778536925795 kilojoule / mole	0.0
+RXN-16767	C21424 = C00004	5.0 millimolar / second	0.5321601063815251 kilojoule / mole	3.1727355011230034 kilojoule / mole	3.1727355011230034 kilojoule / mole	19.9876647625739 kilojoule / mole	0.0
+RXN-9092	C00002 + C00010 + C00989 = C00013 + C00020 + C11062	5.0 millimolar / second	-26.43411614945444 kilojoule / mole	-26.39948425988509 kilojoule / mole	-26.39948425988509 kilojoule / mole	-9.27830564737347 kilojoule / mole	0.0
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN	C00004 + C00080 + C00232 = C00003 + C00989	5.0 millimolar / second	0.38238536041001225 kilojoule / mole	0.37840498448423854 kilojoule / mole	0.37840498448423854 kilojoule / mole	25.927656699017973 kilojoule / mole	0.0
+RXN-15977	C00007 + C00100 = C00027 + C00894	5.0 millimolar / second	-71.86862986103537 kilojoule / mole	-53.03820430254024 kilojoule / mole	-53.03820430254024 kilojoule / mole	-29.928316187159524 kilojoule / mole	0.0
+RXN-16774	C00003 + C00027 = C00007 + C00080 + C21424	5.0 millimolar / second	131.89141496345414 kilojoule / mole	110.27351077910802 kilojoule / mole	110.27351077910802 kilojoule / mole	30.404268930675762 kilojoule / mole	1.0
+METHYLMALONYL-COA-MUT-RXN	C01213 = C00091	5.0 millimolar / second	-8.353466868023588 kilojoule / mole	-8.353466808438874 kilojoule / mole	-8.353466808438874 kilojoule / mole	-4.286923342991126 kilojoule / mole	0.0
+RXN-16391	C18026 = C20238	5.0 millimolar / second	0.0 kilojoule / mole	0.0 kilojoule / mole	0.0 kilojoule / mole	1.029344449782884 kilojoule / mole	0.0
+RXN-8958	C20238 = C18324	5.0 millimolar / second	0.0 kilojoule / mole	0.0 kilojoule / mole	0.0 kilojoule / mole	2.9607401218216496 kilojoule / mole	0.0
+BUTYRYL-COA-DEHYDROGENASE-RXN	C00877 + ETF__45__Reduced = C00080 + C00136 + C04253	5.0 millimolar / second	9.83954537311729 kilojoule / mole	17.28921792138376 kilojoule / mole	17.28921792138376 kilojoule / mole	-20.598485532939662 kilojoule / mole	0.0
+RXN-8960	C00001 + C06028 = C06027	5.0 millimolar / second	3.686969438274673 kilojoule / mole	3.6537717908249103 kilojoule / mole	3.6537717908249103 kilojoule / mole	5.534239116328062 kilojoule / mole	0.0
+RXN-8890	C11062 = C00001 + C00877	5.0 millimolar / second	-10.853617107743773 kilojoule / mole	-10.804841752160286 kilojoule / mole	-10.804841752160286 kilojoule / mole	-7.597159018918199 kilojoule / mole	0.0
+RXN-8959	C00080 + C04253 + C18324 = C06028 + ETF__45__Reduced	5.0 millimolar / second	-7.5268491326257845 kilojoule / mole	-14.8988229931004 kilojoule / mole	-14.8988229931004 kilojoule / mole	11.926585793570087 kilojoule / mole	0.0
+RXN-8961	C06027 = C00048 + C00100	5.0 millimolar / second	15.049597135860907 kilojoule / mole	15.04366110439435 kilojoule / mole	-2.071176430326683 kilojoule / mole	-5.083009224551435 kilojoule / mole	0.0
+RXN-8891	C00005 + C00080 + C00091 = C00006 + C00010 + C00232	5.0 millimolar / second	11.058348804426032 kilojoule / mole	11.007354055520347 kilojoule / mole	-6.107483479200686 kilojoule / mole	19.035505221396093 kilojoule / mole	0.0
