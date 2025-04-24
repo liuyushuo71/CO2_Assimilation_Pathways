@@ -1,0 +1,157 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-8957	C00011 + C00877 + C00005 <=> C18026 + C00006
+GCVMULTI-RXN-GLY/THF/NAD//METHYLENE-THF/AMMONIUM/CARBON-DIOXIDE/NADH.56.	C00014 + C00011 + C00143 + C00004 <=> C00037 + C00003 + C00101
+2-OXOBUTYRATE-SYNTHASE-RXN	C00011 + C00100 + C00080 + 2.0 C00138 <=> C00010 + 2.0 C00139 + C00109
+FORMATETHFLIG-RXN-THF/ATP/FORMATE//10-FORMYL-THF/ADP/Pi.38.	C00002 + C00058 + C00101 <=> C00008 + C00009 + C00234
+PHOSACETYLTRANS-RXN	C00227 + C00010 <=> C00024 + C00009
+RXN-12957	C00028 + C00527 <=> C00030 + C02411
+KETOBUTFORMLY-RXN	C00010 + C00109 <=> C00058 + C00100
+METHENYLTHFCYCLOHYDRO-RXN-5-10-METHENYL-THF/WATER//10-FORMYL-THF/PROTON.46.	C00080 + C00234 <=> C00001 + C00445
+HYDROG-RXN	C00282 + 2.0 C00139 <=> 2.0 C00080 + 2.0 C00138
+RXN-7566	C00037 + C00080 + C00009 + C00342 <=> C00227 + C00014 + C00343 + C00001
+RXN-11667	C01144 <=> C00877 + C00001
+1.12.5.1-RXN-CPD-9724/HYDROGEN-MOLECULE//CPD-12124.38.	CPD-12124 <=> CPD-9724 + C00282
+METHYLENETHFDEHYDROG-NADP-RXN-METHYLENE-THF/NADP//5-10-METHENYL-THF/NADPH.44.	C00005 + C00445 <=> C00143 + C00006
+RXN-11662	C00332 + C00004 + C00080 <=> C00003 + C01144
+RXN-13230	C06028 <=> C18323
+RXN-8965	C18323 + C00001 <=> C01011
+GLUTARYL-COA-DEHYDROG-RXN	ETF__45__Reduced + C02411 <=> C04253 + C00527 + C00080
+CITRAMALYL-COA-LYASE-RXN	C01011 <=> C00024 + C00022
+ACETYL-COA-ACETYLTRANSFER-RXN	2.0 C00024 <=> C00332 + C00010
+RXN-16391	C18026 <=> C20238
+RXN-8958	C20238 <=> C18324
+RXN-8959	C18324 + C04253 + C00080 <=> C06028 + ETF__45__Reduced
+RXN-11155	CPD-9724 + C00030 <=> C00028 + CPD-12124
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C18026	kegg:C18026
+C00139	kegg:C00139
+C01011	kegg:C01011
+C00080	kegg:C00080
+C00001	kegg:C00001
+C00342	kegg:C00342
+C00100	kegg:C00100
+C00877	kegg:C00877
+C00332	kegg:C00332
+C00008	kegg:C00008
+CPD-12124	metacyc.compound:CPD-12124
+C00011	kegg:C00011
+C00022	kegg:C00022
+C00014	kegg:C00014
+C00037	kegg:C00037
+C00234	kegg:C00234
+C00006	kegg:C00006
+C04253	kegg:C04253
+ETF__45__Reduced	bigg.metabolite:ETF__45__Reduced
+C00227	kegg:C00227
+C00058	kegg:C00058
+C18323	kegg:C18323
+C00282	kegg:C00282
+C00009	kegg:C00009
+C00028	kegg:C00028
+C00527	kegg:C00527
+C01144	kegg:C01144
+C00002	kegg:C00002
+C02411	kegg:C02411
+C20238	kegg:C20238
+CPD-9724	metacyc.compound:CPD-9724
+C00138	kegg:C00138
+C00010	kegg:C00010
+C18324	kegg:C18324
+C00024	kegg:C00024
+C00445	kegg:C00445
+C00101	kegg:C00101
+C00030	kegg:C00030
+C06028	kegg:C06028
+C00343	kegg:C00343
+C00109	kegg:C00109
+C00004	kegg:C00004
+C00143	kegg:C00143
+C00003	kegg:C00003
+C00005	kegg:C00005
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-8957	3.33333
+rate of reaction	GCVMULTI-RXN-GLY/THF/NAD//METHYLENE-THF/AMMONIUM/CARBON-DIOXIDE/NADH.56.	3.33333
+rate of reaction	2-OXOBUTYRATE-SYNTHASE-RXN	3.33333
+rate of reaction	FORMATETHFLIG-RXN-THF/ATP/FORMATE//10-FORMYL-THF/ADP/Pi.38.	3.33333
+rate of reaction	PHOSACETYLTRANS-RXN	3.33333
+rate of reaction	RXN-12957	3.33333
+rate of reaction	KETOBUTFORMLY-RXN	3.33333
+rate of reaction	METHENYLTHFCYCLOHYDRO-RXN-5-10-METHENYL-THF/WATER//10-FORMYL-THF/PROTON.46.	3.33333
+rate of reaction	HYDROG-RXN	3.33333
+rate of reaction	RXN-7566	3.33333
+rate of reaction	RXN-11667	3.33333
+rate of reaction	1.12.5.1-RXN-CPD-9724/HYDROGEN-MOLECULE//CPD-12124.38.	3.33333
+rate of reaction	METHYLENETHFDEHYDROG-NADP-RXN-METHYLENE-THF/NADP//5-10-METHENYL-THF/NADPH.44.	3.33333
+rate of reaction	RXN-11662	3.33333
+rate of reaction	RXN-13230	3.33333
+rate of reaction	RXN-8965	3.33333
+rate of reaction	GLUTARYL-COA-DEHYDROG-RXN	3.33333
+rate of reaction	CITRAMALYL-COA-LYASE-RXN	3.33333
+rate of reaction	ACETYL-COA-ACETYLTRANSFER-RXN	3.33333
+rate of reaction	RXN-16391	3.33333
+rate of reaction	RXN-8958	3.33333
+rate of reaction	RXN-8959	3.33333
+rate of reaction	RXN-11155	3.33333
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C18026	0.001	10
+concentration	C00139	0.001	10
+concentration	C01011	0.001	10
+concentration	C00080	0.001	10
+concentration	C00001	0.001	10
+concentration	C00342	0.001	10
+concentration	C00100	0.001	10
+concentration	C00877	0.001	10
+concentration	C00332	0.001	10
+concentration	C00008	0.001	10
+concentration	CPD-12124	0.001	10
+concentration	C00011	0.001	10
+concentration	C00022	0.001	10
+concentration	C00014	0.001	10
+concentration	C00037	0.001	10
+concentration	C00234	0.001	10
+concentration	C00006	0.001	10
+concentration	C04253	0.001	10
+concentration	ETF__45__Reduced	0.001	10
+concentration	C00227	0.001	10
+concentration	C00058	0.001	10
+concentration	C18323	0.001	10
+concentration	C00282	0.001	10
+concentration	C00009	0.001	10
+concentration	C00028	0.001	10
+concentration	C00527	0.001	10
+concentration	C01144	0.001	10
+concentration	C00002	0.001	10
+concentration	C02411	0.001	10
+concentration	C20238	0.001	10
+concentration	CPD-9724	0.001	10
+concentration	C00138	0.001	10
+concentration	C00010	0.001	10
+concentration	C18324	0.001	10
+concentration	C00024	0.001	10
+concentration	C00445	0.001	10
+concentration	C00101	0.001	10
+concentration	C00030	0.001	10
+concentration	C06028	0.001	10
+concentration	C00343	0.001	10
+concentration	C00109	0.001	10
+concentration	C00004	0.001	10
+concentration	C00143	0.001	10
+concentration	C00003	0.001	10
+concentration	C00005	0.001	10
+

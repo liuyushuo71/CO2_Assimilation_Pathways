@@ -1,0 +1,109 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-18384	C00894 + C00011 + C00005 <=> C01213 + C00006
+ACETYL-COA-CARBOXYLTRANSFER-RXN	C00024 + C00002 + C00288 <=> C00008 + C00083 + C00080 + C00009
+OXOGLUTARATE-DEHYDROGENASE-NADP+-RXN	C00011 + C00005 + C00091 <=> C00010 + C00006 + C00026
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+RXN-8974	C00222 + C00005 + C00080 <=> C00006 + C01013
+MALONATE-COA-TRANSFERASE-RXN	C00033 + C00083 <=> C00024 + C00383
+S-2-METHYLMALATE-DEHYDRATASE-RXN	C01732 + C00001 <=> C00815
+METHYLASPARTATE-MUTASE-RXN	C00025 <=> C03618
+RXN-9086	C00002 + C00010 + C01013 <=> C00020 + C00013 + C05668
+METHYLASPARTATE-AMMONIA-LYASE-RXN	C03618 <=> C00014 + C01732
+GLUTDEHYD-RXN	C00014 + C00005 + C00080 + C00026 <=> C00025 + C00006 + C00001
+RXN-6383	C05668 <=> C00894 + C00001
+METHYLMALONYL-COA-MUT-RXN	C01213 <=> C00091
+MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN-MALONATE-S-ALD/NADP/WATER//MALONATE/NADPH/PROTON.49.	C00383 + C00005 + 2.0 C00080 <=> C00222 + C00006 + C00001
+CITRAMALATE-LYASE-RXN	C00815 <=> C00033 + C00022
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C01013	kegg:C01013
+C00080	kegg:C00080
+C00001	kegg:C00001
+C00033	kegg:C00033
+C00013	kegg:C00013
+C01213	kegg:C01213
+C00026	kegg:C00026
+C00083	kegg:C00083
+C00383	kegg:C00383
+C00091	kegg:C00091
+C00008	kegg:C00008
+C00011	kegg:C00011
+C03618	kegg:C03618
+C00014	kegg:C00014
+C00022	kegg:C00022
+C00006	kegg:C00006
+C00009	kegg:C00009
+C00002	kegg:C00002
+C01732	kegg:C01732
+C00020	kegg:C00020
+C00010	kegg:C00010
+C00288	kegg:C00288
+C00025	kegg:C00025
+C05668	kegg:C05668
+C00024	kegg:C00024
+C00815	kegg:C00815
+C00222	kegg:C00222
+C00894	kegg:C00894
+C00005	kegg:C00005
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-18384	3.33333
+rate of reaction	ACETYL-COA-CARBOXYLTRANSFER-RXN	3.33333
+rate of reaction	OXOGLUTARATE-DEHYDROGENASE-NADP+-RXN	3.33333
+rate of reaction	RXN0-5224	3.33333
+rate of reaction	RXN-8974	3.33333
+rate of reaction	MALONATE-COA-TRANSFERASE-RXN	3.33333
+rate of reaction	S-2-METHYLMALATE-DEHYDRATASE-RXN	3.33333
+rate of reaction	METHYLASPARTATE-MUTASE-RXN	3.33333
+rate of reaction	RXN-9086	3.33333
+rate of reaction	METHYLASPARTATE-AMMONIA-LYASE-RXN	3.33333
+rate of reaction	GLUTDEHYD-RXN	3.33333
+rate of reaction	RXN-6383	3.33333
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	3.33333
+rate of reaction	MALONATE-SEMIALDEHYDE-DEHYDROGENASE-RXN-MALONATE-S-ALD/NADP/WATER//MALONATE/NADPH/PROTON.49.	3.33333
+rate of reaction	CITRAMALATE-LYASE-RXN	3.33333
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C01013	0.001	10
+concentration	C00080	0.001	10
+concentration	C00001	0.001	10
+concentration	C00033	0.001	10
+concentration	C00013	0.001	10
+concentration	C01213	0.001	10
+concentration	C00026	0.001	10
+concentration	C00083	0.001	10
+concentration	C00383	0.001	10
+concentration	C00091	0.001	10
+concentration	C00008	0.001	10
+concentration	C00011	0.001	10
+concentration	C03618	0.001	10
+concentration	C00014	0.001	10
+concentration	C00022	0.001	10
+concentration	C00006	0.001	10
+concentration	C00009	0.001	10
+concentration	C00002	0.001	10
+concentration	C01732	0.001	10
+concentration	C00020	0.001	10
+concentration	C00010	0.001	10
+concentration	C00288	0.001	10
+concentration	C00025	0.001	10
+concentration	C05668	0.001	10
+concentration	C00024	0.001	10
+concentration	C00815	0.001	10
+concentration	C00222	0.001	10
+concentration	C00894	0.001	10
+concentration	C00005	0.001	10
+
