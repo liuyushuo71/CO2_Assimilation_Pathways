@@ -1,0 +1,155 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-8957	C00011 + C00877 + C00005 <=> C18026 + C00006
+PROPIONYL-COA-CARBOXY-RXN	C00002 + C00288 + C00100 <=> C00008 + C00683 + C00080 + C00009
+PYRUVATE-DEHYDROGENASE-NADP+-RXN	C00024 + C00011 + C00005 <=> C00010 + C00006 + C00022
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+2PGADEHYDRAT-RXN	C00074 + C00001 <=> C00631
+PHOSACETYLTRANS-RXN	C00227 + C00010 <=> C00024 + C00009
+RXN-12957	C00028 + C00527 <=> C00030 + C02411
+RXN-9092	C00002 + C00010 + C00989 <=> C00020 + C00013 + C11062
+RXN-7566	C00037 + C00080 + C00009 + C00342 <=> C00227 + C00014 + C00343 + C00001
+RXN-15513	C00631 <=> C00197
+PYRUVATEORTHOPHOSPHATE-DIKINASE-RXN	C00002 + C00022 + C00009 <=> C00020 + C00074 + C00013 + C00080
+GLUTARYL-COA-DEHYDROG-RXN	ETF__45__Reduced + C02411 <=> C04253 + C00527 + C00080
+METHYLMALONYL-COA-MUT-RXN	C01213 <=> C00091
+RXN-16391	C18026 <=> C20238
+RXN-8958	C20238 <=> C18324
+GLYCINE-DEHYDROGENASE-RXN	C00014 + C00048 + C00004 + C00080 <=> C00037 + C00003 + C00001
+METHYLMALONYL-COA-EPIM-RXN	C00683 <=> C01213
+RXN-8960	C06028 + C00001 <=> C06027
+RXN-8890	C11062 <=> C00877 + C00001
+RXN-11002	C00005 + C00080 + C00232 <=> C00006 + C00989
+RXN-8959	C18324 + C04253 + C00080 <=> C06028 + ETF__45__Reduced
+RXN-8961	C06027 <=> C00048 + C00100
+RXN-8891	C00005 + C00080 + C00091 <=> C00010 + C00006 + C00232
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C06028	kegg:C06028
+C00028	kegg:C00028
+C00037	kegg:C00037
+C00010	kegg:C00010
+C00197	kegg:C00197
+C00001	kegg:C00001
+C00100	kegg:C00100
+C00006	kegg:C00006
+C00288	kegg:C00288
+C06027	kegg:C06027
+C01213	kegg:C01213
+C20238	kegg:C20238
+C18026	kegg:C18026
+C00014	kegg:C00014
+C00232	kegg:C00232
+C00005	kegg:C00005
+C00009	kegg:C00009
+C00022	kegg:C00022
+C11062	kegg:C11062
+C00011	kegg:C00011
+C00683	kegg:C00683
+C00989	kegg:C00989
+C00343	kegg:C00343
+C04253	kegg:C04253
+C00024	kegg:C00024
+C00013	kegg:C00013
+C00091	kegg:C00091
+C00048	kegg:C00048
+C00877	kegg:C00877
+C02411	kegg:C02411
+C00003	kegg:C00003
+C00527	kegg:C00527
+ETF__45__Reduced	bigg.metabolite:ETF__45__Reduced
+C00080	kegg:C00080
+C00227	kegg:C00227
+C00030	kegg:C00030
+C00342	kegg:C00342
+C00020	kegg:C00020
+C00008	kegg:C00008
+C00004	kegg:C00004
+C00631	kegg:C00631
+C00002	kegg:C00002
+C00074	kegg:C00074
+C18324	kegg:C18324
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-8957	3.33333
+rate of reaction	PROPIONYL-COA-CARBOXY-RXN	3.33333
+rate of reaction	PYRUVATE-DEHYDROGENASE-NADP+-RXN	3.33333
+rate of reaction	RXN0-5224	3.33333
+rate of reaction	2PGADEHYDRAT-RXN	3.33333
+rate of reaction	PHOSACETYLTRANS-RXN	3.33333
+rate of reaction	RXN-12957	3.33333
+rate of reaction	RXN-9092	3.33333
+rate of reaction	RXN-7566	3.33333
+rate of reaction	RXN-15513	3.33333
+rate of reaction	PYRUVATEORTHOPHOSPHATE-DIKINASE-RXN	3.33333
+rate of reaction	GLUTARYL-COA-DEHYDROG-RXN	3.33333
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	3.33333
+rate of reaction	RXN-16391	3.33333
+rate of reaction	RXN-8958	3.33333
+rate of reaction	GLYCINE-DEHYDROGENASE-RXN	3.33333
+rate of reaction	METHYLMALONYL-COA-EPIM-RXN	3.33333
+rate of reaction	RXN-8960	3.33333
+rate of reaction	RXN-8890	3.33333
+rate of reaction	RXN-11002	3.33333
+rate of reaction	RXN-8959	3.33333
+rate of reaction	RXN-8961	3.33333
+rate of reaction	RXN-8891	3.33333
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C06028	0.001	10
+concentration	C00028	0.001	10
+concentration	C00037	0.001	10
+concentration	C00010	0.001	10
+concentration	C00197	0.001	10
+concentration	C00001	0.001	10
+concentration	C00100	0.001	10
+concentration	C00006	0.001	10
+concentration	C00288	0.001	10
+concentration	C06027	0.001	10
+concentration	C01213	0.001	10
+concentration	C20238	0.001	10
+concentration	C18026	0.001	10
+concentration	C00014	0.001	10
+concentration	C00232	0.001	10
+concentration	C00005	0.001	10
+concentration	C00009	0.001	10
+concentration	C00022	0.001	10
+concentration	C11062	0.001	10
+concentration	C00011	0.001	10
+concentration	C00683	0.001	10
+concentration	C00989	0.001	10
+concentration	C00343	0.001	10
+concentration	C04253	0.001	10
+concentration	C00024	0.001	10
+concentration	C00013	0.001	10
+concentration	C00091	0.001	10
+concentration	C00048	0.001	10
+concentration	C00877	0.001	10
+concentration	C02411	0.001	10
+concentration	C00003	0.001	10
+concentration	C00527	0.001	10
+concentration	ETF__45__Reduced	0.001	10
+concentration	C00080	0.001	10
+concentration	C00227	0.001	10
+concentration	C00030	0.001	10
+concentration	C00342	0.001	10
+concentration	C00020	0.001	10
+concentration	C00008	0.001	10
+concentration	C00004	0.001	10
+concentration	C00631	0.001	10
+concentration	C00002	0.001	10
+concentration	C00074	0.001	10
+concentration	C18324	0.001	10
+
