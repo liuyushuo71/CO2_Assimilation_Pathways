@@ -16,5 +16,5 @@ pip install equilibrator_pathway
 # Steps to reproduce the analysis
 ```bash
 cd /file path/project save path/
-git clone 
+git clone https://github.com/liuyushuo71/CO2_Assimilation_Pathways.git
 ```
