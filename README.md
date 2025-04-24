@@ -1,4 +1,4 @@
-# CO2_Assimilation_Pathways
+# CO2 Assimilation Pathways
 This is the repository for the manuscript “Systematic Design and Evaluation of Artificial CO2 Assimilation Pathways”.
 # About
 The pipeline was written and tested with Python 3.12. The core libraries essential for the pipeline including: Cobra, Pandas, equilibrator_api, and related packages.
@@ -13,4 +13,8 @@ pip install cobra
 pip install equilibrator_api
 pip install equilibrator_pathway
 ```
-# Environment Requirements
+# Steps to reproduce the analysis
+```bash
+cd /file path/project save path/
+git clone 
+```
