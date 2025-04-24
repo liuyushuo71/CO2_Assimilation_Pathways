@@ -1,0 +1,129 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+PEPCARBOX-RXN	C00288 + C00074 <=> C00036 + C00009
+RXN-8457	C00002 + C00011 + C00001 + C00026 <=> C00008 + C05379 + 2.0 C00080 + C00009
+PYRUVFORMLY-RXN	C00024 + C00058 <=> C00010 + C00022
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+HYDGLUTSYN-RXN	C00048 + C00100 + C00001 <=> C00010 + C00080 + C02630
+FUMARATE-REDUCTASE-NADH-RXN	C00003 + C00042 <=> C00122 + C00004 + C00080
+FUMHYDR-RXN[CCO-CYTOSOL]-MAL//FUM/WATER.28.	C00122 + C00001 <=> C00149
+HOMOSERDEAM-RXN	C00263 <=> C00014 + C00109
+1.4.1.21-RXN-L-ASPARTATE/NADP/WATER//OXALACETIC_ACID/AMMONIUM/NADPH/PROTON.62.	C00014 + C00005 + C00036 + C00080 <=> C00049 + C00006 + C00001
+KETOBUTFORMLY-RXN	C00010 + C00109 <=> C00058 + C00100
+HOMOSERDEHYDROG-RXN-HOMO-SER/NAD//L-ASPARTATE-SEMIALDEHYDE/NADH/PROTON.51.	C00441 + C00004 + C00080 <=> C00263 + C00003
+RXN-14103	C00016 + C00080 + C02630 <=> C01352 + C00026
+MALYL-COA-LYASE-RXN	C04348 <=> C00024 + C00048
+R23-RXN	C00004 + C05379 + C00080 <=> C00003 + C00311
+PEPDEPHOS-RXN	C00002 + C00022 <=> C00008 + C00074 + C00080
+ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	C03082 + C00005 + C00080 <=> C00441 + C00006 + C00009
+ASPARTATEKIN-RXN	C00002 + C00049 <=> C00008 + C03082
+MALATE--COA-LIGASE-RXN	C00002 + C00010 + C00149 <=> C00008 + C04348 + C00009
+ISOCIT-CLEAV-RXN	C00311 <=> C00048 + C00042
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00074	kegg:C00074
+C00008	kegg:C00008
+C00036	kegg:C00036
+C00288	kegg:C00288
+C00001	kegg:C00001
+C00311	kegg:C00311
+C00022	kegg:C00022
+C00016	kegg:C00016
+C00042	kegg:C00042
+C00122	kegg:C00122
+C00149	kegg:C00149
+C00004	kegg:C00004
+C00026	kegg:C00026
+C00080	kegg:C00080
+C00010	kegg:C00010
+C00048	kegg:C00048
+C00100	kegg:C00100
+C00005	kegg:C00005
+C00024	kegg:C00024
+C04348	kegg:C04348
+C00014	kegg:C00014
+C00002	kegg:C00002
+C00006	kegg:C00006
+C00058	kegg:C00058
+C02630	kegg:C02630
+C00009	kegg:C00009
+C00263	kegg:C00263
+C01352	kegg:C01352
+C03082	kegg:C03082
+C00049	kegg:C00049
+C05379	kegg:C05379
+C00109	kegg:C00109
+C00003	kegg:C00003
+C00441	kegg:C00441
+C00011	kegg:C00011
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	PEPCARBOX-RXN	5.0
+rate of reaction	RXN-8457	5.0
+rate of reaction	PYRUVFORMLY-RXN	5.0
+rate of reaction	RXN0-5224	5.0
+rate of reaction	HYDGLUTSYN-RXN	5.0
+rate of reaction	FUMARATE-REDUCTASE-NADH-RXN	5.0
+rate of reaction	FUMHYDR-RXN[CCO-CYTOSOL]-MAL//FUM/WATER.28.	5.0
+rate of reaction	HOMOSERDEAM-RXN	5.0
+rate of reaction	1.4.1.21-RXN-L-ASPARTATE/NADP/WATER//OXALACETIC_ACID/AMMONIUM/NADPH/PROTON.62.	5.0
+rate of reaction	KETOBUTFORMLY-RXN	5.0
+rate of reaction	HOMOSERDEHYDROG-RXN-HOMO-SER/NAD//L-ASPARTATE-SEMIALDEHYDE/NADH/PROTON.51.	5.0
+rate of reaction	RXN-14103	5.0
+rate of reaction	MALYL-COA-LYASE-RXN	5.0
+rate of reaction	R23-RXN	5.0
+rate of reaction	PEPDEPHOS-RXN	5.0
+rate of reaction	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	5.0
+rate of reaction	ASPARTATEKIN-RXN	5.0
+rate of reaction	MALATE--COA-LIGASE-RXN	5.0
+rate of reaction	ISOCIT-CLEAV-RXN	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00074	0.001	10
+concentration	C00008	0.001	10
+concentration	C00036	0.001	10
+concentration	C00288	0.001	10
+concentration	C00001	0.001	10
+concentration	C00311	0.001	10
+concentration	C00022	0.001	10
+concentration	C00016	0.001	10
+concentration	C00042	0.001	10
+concentration	C00122	0.001	10
+concentration	C00149	0.001	10
+concentration	C00004	0.001	10
+concentration	C00026	0.001	10
+concentration	C00080	0.001	10
+concentration	C00010	0.001	10
+concentration	C00048	0.001	10
+concentration	C00100	0.001	10
+concentration	C00005	0.001	10
+concentration	C00024	0.001	10
+concentration	C04348	0.001	10
+concentration	C00014	0.001	10
+concentration	C00002	0.001	10
+concentration	C00006	0.001	10
+concentration	C00058	0.001	10
+concentration	C02630	0.001	10
+concentration	C00009	0.001	10
+concentration	C00263	0.001	10
+concentration	C01352	0.001	10
+concentration	C03082	0.001	10
+concentration	C00049	0.001	10
+concentration	C05379	0.001	10
+concentration	C00109	0.001	10
+concentration	C00003	0.001	10
+concentration	C00441	0.001	10
+concentration	C00011	0.001	10
+
