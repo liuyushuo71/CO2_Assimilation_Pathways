@@ -1,0 +1,91 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+PROPIONYL-COA-CARBOXY-RXN	C00002 + C00288 + C00100 <=> C00008 + C00683 + C00080 + C00009
+OXOGLUTARATE-DEHYDROGENASE-NADP+-RXN	C00011 + C00005 + C00091 <=> C00010 + C00006 + C00026
+RXN0-5224	C00011 + C00001 <=> C00288 + C00080
+SUCCCOASYN-RXN[CCO-CYTOSOL]-SUC/ATP/CO-A//SUC-COA/ADP/Pi.42.	C00002 + C00010 + C00042 <=> C00008 + C00009 + C00091
+RXN-12168	C01732 + C00091 <=> C06028 + C00042
+METHYLASPARTATE-MUTASE-RXN	C00025 <=> C03618
+METHYLASPARTATE-AMMONIA-LYASE-RXN	C03618 <=> C00014 + C01732
+GLUTDEHYD-RXN	C00014 + C00005 + C00080 + C00026 <=> C00025 + C00006 + C00001
+METHYLMALONYL-COA-MUT-RXN	C01213 <=> C00091
+METHYLMALONYL-COA-EPIM-RXN	C00683 <=> C01213
+RXN-8960	C06028 + C00001 <=> C06027
+RXN-8961	C06027 <=> C00048 + C00100
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00091	kegg:C00091
+C00008	kegg:C00008
+C06028	kegg:C06028
+C00288	kegg:C00288
+C00001	kegg:C00001
+C00683	kegg:C00683
+C03618	kegg:C03618
+C00042	kegg:C00042
+C00025	kegg:C00025
+C01732	kegg:C01732
+C00026	kegg:C00026
+C01213	kegg:C01213
+C00080	kegg:C00080
+C00010	kegg:C00010
+C00100	kegg:C00100
+C00005	kegg:C00005
+C00048	kegg:C00048
+C00014	kegg:C00014
+C00002	kegg:C00002
+C00006	kegg:C00006
+C00009	kegg:C00009
+C06027	kegg:C06027
+C00011	kegg:C00011
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	PROPIONYL-COA-CARBOXY-RXN	5.0
+rate of reaction	OXOGLUTARATE-DEHYDROGENASE-NADP+-RXN	5.0
+rate of reaction	RXN0-5224	5.0
+rate of reaction	SUCCCOASYN-RXN[CCO-CYTOSOL]-SUC/ATP/CO-A//SUC-COA/ADP/Pi.42.	5.0
+rate of reaction	RXN-12168	5.0
+rate of reaction	METHYLASPARTATE-MUTASE-RXN	5.0
+rate of reaction	METHYLASPARTATE-AMMONIA-LYASE-RXN	5.0
+rate of reaction	GLUTDEHYD-RXN	5.0
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	5.0
+rate of reaction	METHYLMALONYL-COA-EPIM-RXN	5.0
+rate of reaction	RXN-8960	5.0
+rate of reaction	RXN-8961	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00091	0.001	10
+concentration	C00008	0.001	10
+concentration	C06028	0.001	10
+concentration	C00288	0.001	10
+concentration	C00001	0.001	10
+concentration	C00683	0.001	10
+concentration	C03618	0.001	10
+concentration	C00042	0.001	10
+concentration	C00025	0.001	10
+concentration	C01732	0.001	10
+concentration	C00026	0.001	10
+concentration	C01213	0.001	10
+concentration	C00080	0.001	10
+concentration	C00010	0.001	10
+concentration	C00100	0.001	10
+concentration	C00005	0.001	10
+concentration	C00048	0.001	10
+concentration	C00014	0.001	10
+concentration	C00002	0.001	10
+concentration	C00006	0.001	10
+concentration	C00009	0.001	10
+concentration	C06027	0.001	10
+concentration	C00011	0.001	10
+
