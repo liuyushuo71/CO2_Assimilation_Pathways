@@ -1,0 +1,127 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-18384	C00894 + C00011 + C00005 <=> C01213 + C00006
+PYRUVATE-DEHYDROGENASE-NADP+-RXN	C00024 + C00011 + C00005 <=> C00010 + C00006 + C00022
+2-OXOBUTYRATE-SYNTHASE-RXN	C00011 + C00100 + C00080 + 2.0 C00138 <=> C00010 + 2.0 C00139 + C00109
+PYRUVFORMLY-RXN	C00024 + C00058 <=> C00010 + C00022
+PHOSGLYPHOS-RXN	C00002 + C00197 <=> C00008 + C00236
+RXN-15632-L-LACTATE/NADP//PYRUVATE/NADPH/PROTON.38.	C00005 + C00080 + C00022 <=> C00186 + C00006
+KETOBUTFORMLY-RXN	C00010 + C00109 <=> C00058 + C00100
+1.2.7.6-RXN	C00118 + 2.0 C00139 + C00001 <=> C00197 + 3.0 C00080 + 2.0 C00138
+MALYL-COA-LYASE-RXN	C04348 <=> C00024 + C00048
+GAPOXNPHOSPHN-RXN	C00236 + C00004 + C00080 <=> C00118 + C00003 + C00009
+RXN-14047	C00311 <=> C00158
+MALATE-DEHYDROGENASE-NADP+-RXN	C00005 + C00036 + C00080 <=> C00149 + C00006
+RXN-781	C00827 <=> C00894 + C00001
+RXN0-268	C00163 + C00091 <=> C00100 + C00042
+MALATE--COA-LIGASE-RXN	C00002 + C00010 + C00149 <=> C00008 + C04348 + C00009
+PROPIONLACT-RXN	C00186 + C00100 <=> C00827 + C00163
+METHYLMALONYL-COA-MUT-RXN	C01213 <=> C00091
+ISOCIT-CLEAV-RXN	C00048 + C00042 <=> C00311
+ATP-CITRATE-PRO-S--LYASE-RXN	C00002 + C00158 + C00010 <=> C00024 + C00008 + C00036 + C00009
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00139	kegg:C00139
+C00080	kegg:C00080
+C00001	kegg:C00001
+C01213	kegg:C01213
+C00100	kegg:C00100
+C00236	kegg:C00236
+C00163	kegg:C00163
+C00091	kegg:C00091
+C00311	kegg:C00311
+C00118	kegg:C00118
+C00008	kegg:C00008
+C00011	kegg:C00011
+C00022	kegg:C00022
+C00006	kegg:C00006
+C00058	kegg:C00058
+C00158	kegg:C00158
+C00036	kegg:C00036
+C00009	kegg:C00009
+C00042	kegg:C00042
+C00002	kegg:C00002
+C00197	kegg:C00197
+C00138	kegg:C00138
+C00010	kegg:C00010
+C00024	kegg:C00024
+C00149	kegg:C00149
+C00048	kegg:C00048
+C00894	kegg:C00894
+C00109	kegg:C00109
+C00186	kegg:C00186
+C00827	kegg:C00827
+C00004	kegg:C00004
+C00003	kegg:C00003
+C00005	kegg:C00005
+C04348	kegg:C04348
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-18384	3.33333
+rate of reaction	PYRUVATE-DEHYDROGENASE-NADP+-RXN	3.33333
+rate of reaction	2-OXOBUTYRATE-SYNTHASE-RXN	3.33333
+rate of reaction	PYRUVFORMLY-RXN	3.33333
+rate of reaction	PHOSGLYPHOS-RXN	3.33333
+rate of reaction	RXN-15632-L-LACTATE/NADP//PYRUVATE/NADPH/PROTON.38.	3.33333
+rate of reaction	KETOBUTFORMLY-RXN	3.33333
+rate of reaction	1.2.7.6-RXN	3.33333
+rate of reaction	MALYL-COA-LYASE-RXN	3.33333
+rate of reaction	GAPOXNPHOSPHN-RXN	3.33333
+rate of reaction	RXN-14047	3.33333
+rate of reaction	MALATE-DEHYDROGENASE-NADP+-RXN	3.33333
+rate of reaction	RXN-781	3.33333
+rate of reaction	RXN0-268	3.33333
+rate of reaction	MALATE--COA-LIGASE-RXN	3.33333
+rate of reaction	PROPIONLACT-RXN	3.33333
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	3.33333
+rate of reaction	ISOCIT-CLEAV-RXN	3.33333
+rate of reaction	ATP-CITRATE-PRO-S--LYASE-RXN	3.33333
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00139	0.001	10
+concentration	C00080	0.001	10
+concentration	C00001	0.001	10
+concentration	C01213	0.001	10
+concentration	C00100	0.001	10
+concentration	C00236	0.001	10
+concentration	C00163	0.001	10
+concentration	C00091	0.001	10
+concentration	C00311	0.001	10
+concentration	C00118	0.001	10
+concentration	C00008	0.001	10
+concentration	C00011	0.001	10
+concentration	C00022	0.001	10
+concentration	C00006	0.001	10
+concentration	C00058	0.001	10
+concentration	C00158	0.001	10
+concentration	C00036	0.001	10
+concentration	C00009	0.001	10
+concentration	C00042	0.001	10
+concentration	C00002	0.001	10
+concentration	C00197	0.001	10
+concentration	C00138	0.001	10
+concentration	C00010	0.001	10
+concentration	C00024	0.001	10
+concentration	C00149	0.001	10
+concentration	C00048	0.001	10
+concentration	C00894	0.001	10
+concentration	C00109	0.001	10
+concentration	C00186	0.001	10
+concentration	C00827	0.001	10
+concentration	C00004	0.001	10
+concentration	C00003	0.001	10
+concentration	C00005	0.001	10
+concentration	C04348	0.001	10
+
