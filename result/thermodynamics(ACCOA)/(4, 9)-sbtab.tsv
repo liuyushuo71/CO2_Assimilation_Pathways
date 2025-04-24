@@ -1,0 +1,111 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN	C00011 + C01182 + C00001 <=> 2.0 C00197 + 2.0 C00080
+PYRUVATE-DEHYDROGENASE-NADP+-RXN	C00024 + C00011 + C00005 <=> C00010 + C00006 + C00022
+FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN	C05345 + C00009 <=> C00227 + C00279 + C00001
+PHOSPHOKETOLASE-RXN	C00009 + C00231 <=> C00227 + C00118 + C00001
+RXN0-313	C00184 + C00118 <=> C05345
+2PGADEHYDRAT-RXN	C00074 + C00001 <=> C00631
+PHOSACETYLTRANS-RXN	C00227 + C00010 <=> C00024 + C00009
+SEDOBISALDOL-RXN	C00111 + C00279 <=> C00447
+PHOSGLYPHOS-RXN	C00002 + C00197 <=> C00008 + C00236
+SEDOHEPTULOSE-BISPHOSPHATASE-RXN	C00447 + C00001 <=> C05382 + C00009
+RXN-8801	C01151 <=> C01182
+1.2.1.13-RXN	C00236 + C00005 + C00080 <=> C00118 + C00006 + C00009
+RXN-15513	C00631 <=> C00197
+1TRANSKETO-RXN-D-SEDOHEPTULOSE-7-P/GAP//CPD-15318/XYLULOSE-5-PHOSPHATE.56.	C05382 + C00118 <=> C03736 + C00231
+PHOSPHORIBOKINASE-RXN	C00002 + C03736 <=> C00008 + C00080 + C01151
+PEPDEPHOS-RXN	C00002 + C00022 <=> C00008 + C00074 + C00080
+TRIOSEPISOMERIZATION-RXN	C00118 <=> C00111
+RXN0-7249	C00111 + C00001 <=> C00184 + C00009
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00008	kegg:C00008
+C00118	kegg:C00118
+C00236	kegg:C00236
+C00009	kegg:C00009
+C01151	kegg:C01151
+C00011	kegg:C00011
+C00447	kegg:C00447
+C00080	kegg:C00080
+C05382	kegg:C05382
+C00010	kegg:C00010
+C00005	kegg:C00005
+C00001	kegg:C00001
+C00227	kegg:C00227
+C00024	kegg:C00024
+C00197	kegg:C00197
+C03736	kegg:C03736
+C00279	kegg:C00279
+C00231	kegg:C00231
+C00074	kegg:C00074
+C01182	kegg:C01182
+C00002	kegg:C00002
+C00111	kegg:C00111
+C00631	kegg:C00631
+C00006	kegg:C00006
+C00022	kegg:C00022
+C05345	kegg:C05345
+C00184	kegg:C00184
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN	5.0
+rate of reaction	PYRUVATE-DEHYDROGENASE-NADP+-RXN	5.0
+rate of reaction	FRUCTOSE-6-PHOSPHATE-PHOSPHOKETOLASE-RXN	5.0
+rate of reaction	PHOSPHOKETOLASE-RXN	5.0
+rate of reaction	RXN0-313	5.0
+rate of reaction	2PGADEHYDRAT-RXN	5.0
+rate of reaction	PHOSACETYLTRANS-RXN	10.0
+rate of reaction	SEDOBISALDOL-RXN	5.0
+rate of reaction	PHOSGLYPHOS-RXN	15.0
+rate of reaction	SEDOHEPTULOSE-BISPHOSPHATASE-RXN	5.0
+rate of reaction	RXN-8801	5.0
+rate of reaction	1.2.1.13-RXN	15.0
+rate of reaction	RXN-15513	5.0
+rate of reaction	1TRANSKETO-RXN-D-SEDOHEPTULOSE-7-P/GAP//CPD-15318/XYLULOSE-5-PHOSPHATE.56.	5.0
+rate of reaction	PHOSPHORIBOKINASE-RXN	5.0
+rate of reaction	PEPDEPHOS-RXN	5.0
+rate of reaction	TRIOSEPISOMERIZATION-RXN	10.0
+rate of reaction	RXN0-7249	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00008	0.001	10
+concentration	C00118	0.001	10
+concentration	C00236	0.001	10
+concentration	C00009	0.001	10
+concentration	C01151	0.001	10
+concentration	C00011	0.001	10
+concentration	C00447	0.001	10
+concentration	C00080	0.001	10
+concentration	C05382	0.001	10
+concentration	C00010	0.001	10
+concentration	C00005	0.001	10
+concentration	C00001	0.001	10
+concentration	C00227	0.001	10
+concentration	C00024	0.001	10
+concentration	C00197	0.001	10
+concentration	C03736	0.001	10
+concentration	C00279	0.001	10
+concentration	C00231	0.001	10
+concentration	C00074	0.001	10
+concentration	C01182	0.001	10
+concentration	C00002	0.001	10
+concentration	C00111	0.001	10
+concentration	C00631	0.001	10
+concentration	C00006	0.001	10
+concentration	C00022	0.001	10
+concentration	C05345	0.001	10
+concentration	C00184	0.001	10
+
