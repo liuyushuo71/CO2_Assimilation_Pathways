@@ -7,4 +7,10 @@ The pipeline was written and tested with Python 3.12. The core libraries essenti
 ```bash
 conda create -n CO2_pathways python=3.12
 ```
+2.install related packages using pip:
+```bash
+pip install cobra
+pip install equilibrator_api
+pip install equilibrator_pathway
+```
 # Environment Requirements
