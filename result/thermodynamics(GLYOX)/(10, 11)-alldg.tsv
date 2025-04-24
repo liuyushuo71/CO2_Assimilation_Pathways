@@ -1,0 +1,5 @@
+reaction_id	reaction_formula	flux	original_standard_dg_prime	standard_dg_prime	physiological_dg_prime	optimized_dg_prime	shadow_price
+ISOCITDEH-RXN	C00005 + C00011 + C00026 = C00006 + C00311	5.0 millimolar / second	-5.475979454694226 kilojoule / mole	-14.396071185335837 kilojoule / mole	2.718766349385197 kilojoule / mole	-25.67056644296843 kilojoule / mole	0.25
+OXOGLUTARATE-DEHYDROGENASE-NADP+-RXN	C00005 + C00011 + C00091 = C00006 + C00010 + C00026	5.0 millimolar / second	28.131231071570255 kilojoule / mole	18.213732018804357 kilojoule / mole	18.213732018804357 kilojoule / mole	-25.670566443417613 kilojoule / mole	0.25
+SUCCCOASYN-RXN[CCO-CYTOSOL]-SUC/ATP/CO-A//SUC-COA/ADP/Pi.42.	C00002 + C00010 + C00042 = C00008 + C00009 + C00091	5.0 millimolar / second	-1.751349941173494 kilojoule / mole	-1.7637477097920606 kilojoule / mole	-1.7637477097920606 kilojoule / mole	-25.670566443767473 kilojoule / mole	0.25
+ISOCIT-CLEAV-RXN	C00311 = C00042 + C00048	5.0 millimolar / second	9.519832192639555 kilojoule / mole	9.362737992531754 kilojoule / mole	-7.7520995421892795 kilojoule / mole	-25.670566444740178 kilojoule / mole	0.25
