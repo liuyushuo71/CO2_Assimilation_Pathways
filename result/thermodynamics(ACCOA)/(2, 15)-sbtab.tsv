@@ -1,0 +1,125 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+RXN-18384	C00894 + C00011 + C00005 <=> C01213 + C00006
+2-OXOBUTYRATE-SYNTHASE-RXN	C00011 + C00100 + C00080 + 2.0 C00138 <=> C00010 + 2.0 C00139 + C00109
+PYRUVFORMLY-RXN	C00024 + C00058 <=> C00010 + C00022
+KETOBUTFORMLY-RXN	C00010 + C00109 <=> C00058 + C00100
+HYDROG-RXN	C00282 + 2.0 C00139 <=> 2.0 C00080 + 2.0 C00138
+1.6.99.5-RXN-NADH/CPD-9849/PROTON//NAD/CPD-18075.36.	C21527 + C00004 + C00080 <=> CPD__45__18075 + C00003
+MALYL-COA-LYASE-RXN	C04348 <=> C00024 + C00048
+1.12.5.1-RXN-CPD-9849/HYDROGEN-MOLECULE//CPD-18075.38.	CPD__45__18075 <=> C21527 + C00282
+RXN-14047	C00311 <=> C00158
+MALATE-DEHYDROGENASE-NADP+-RXN	C00005 + C00036 + C00080 <=> C00149 + C00006
+RXN-781	C00827 <=> C00894 + C00001
+RXN0-268	C00163 + C00091 <=> C00100 + C00042
+MALATE--COA-LIGASE-RXN	C00002 + C00010 + C00149 <=> C00008 + C04348 + C00009
+PROPIONLACT-RXN	C00186 + C00100 <=> C00827 + C00163
+METHYLMALONYL-COA-MUT-RXN	C01213 <=> C00091
+L-LACTATE-DEHYDROGENASE-RXN	C00004 + C00080 + C00022 <=> C00186 + C00003
+ISOCIT-CLEAV-RXN	C00048 + C00042 <=> C00311
+ATP-CITRATE-PRO-S--LYASE-RXN	C00002 + C00158 + C00010 <=> C00024 + C00008 + C00036 + C00009
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C00042	kegg:C00042
+C00008	kegg:C00008
+C00100	kegg:C00100
+C00139	kegg:C00139
+C00009	kegg:C00009
+C00011	kegg:C00011
+C00311	kegg:C00311
+C00080	kegg:C00080
+C00138	kegg:C00138
+C00004	kegg:C00004
+C00003	kegg:C00003
+C00158	kegg:C00158
+C00010	kegg:C00010
+C00827	kegg:C00827
+C00186	kegg:C00186
+C00005	kegg:C00005
+C00001	kegg:C00001
+C21527	kegg:C21527
+C00109	kegg:C00109
+C00163	kegg:C00163
+C00024	kegg:C00024
+CPD__45__18075	bigg.metabolite:CPD__45__18075
+C00002	kegg:C00002
+C04348	kegg:C04348
+C00149	kegg:C00149
+C00048	kegg:C00048
+C00058	kegg:C00058
+C00091	kegg:C00091
+C00006	kegg:C00006
+C00282	kegg:C00282
+C00894	kegg:C00894
+C00036	kegg:C00036
+C00022	kegg:C00022
+C01213	kegg:C01213
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	RXN-18384	5.0
+rate of reaction	2-OXOBUTYRATE-SYNTHASE-RXN	5.0
+rate of reaction	PYRUVFORMLY-RXN	5.0
+rate of reaction	KETOBUTFORMLY-RXN	5.0
+rate of reaction	HYDROG-RXN	5.0
+rate of reaction	1.6.99.5-RXN-NADH/CPD-9849/PROTON//NAD/CPD-18075.36.	5.0
+rate of reaction	MALYL-COA-LYASE-RXN	5.0
+rate of reaction	1.12.5.1-RXN-CPD-9849/HYDROGEN-MOLECULE//CPD-18075.38.	5.0
+rate of reaction	RXN-14047	5.0
+rate of reaction	MALATE-DEHYDROGENASE-NADP+-RXN	5.0
+rate of reaction	RXN-781	5.0
+rate of reaction	RXN0-268	5.0
+rate of reaction	MALATE--COA-LIGASE-RXN	5.0
+rate of reaction	PROPIONLACT-RXN	5.0
+rate of reaction	METHYLMALONYL-COA-MUT-RXN	5.0
+rate of reaction	L-LACTATE-DEHYDROGENASE-RXN	5.0
+rate of reaction	ISOCIT-CLEAV-RXN	5.0
+rate of reaction	ATP-CITRATE-PRO-S--LYASE-RXN	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C00042	0.001	10
+concentration	C00008	0.001	10
+concentration	C00100	0.001	10
+concentration	C00139	0.001	10
+concentration	C00009	0.001	10
+concentration	C00011	0.001	10
+concentration	C00311	0.001	10
+concentration	C00080	0.001	10
+concentration	C00138	0.001	10
+concentration	C00004	0.001	10
+concentration	C00003	0.001	10
+concentration	C00158	0.001	10
+concentration	C00010	0.001	10
+concentration	C00827	0.001	10
+concentration	C00186	0.001	10
+concentration	C00005	0.001	10
+concentration	C00001	0.001	10
+concentration	C21527	0.001	10
+concentration	C00109	0.001	10
+concentration	C00163	0.001	10
+concentration	C00024	0.001	10
+concentration	CPD__45__18075	0.001	10
+concentration	C00002	0.001	10
+concentration	C04348	0.001	10
+concentration	C00149	0.001	10
+concentration	C00048	0.001	10
+concentration	C00058	0.001	10
+concentration	C00091	0.001	10
+concentration	C00006	0.001	10
+concentration	C00282	0.001	10
+concentration	C00894	0.001	10
+concentration	C00036	0.001	10
+concentration	C00022	0.001	10
+concentration	C01213	0.001	10
+
