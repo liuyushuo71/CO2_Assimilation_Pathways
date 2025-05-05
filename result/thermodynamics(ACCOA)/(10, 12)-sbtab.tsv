@@ -1,0 +1,141 @@
+!!!SBtab DocumentName='pathway sbtab' SBtabVersion='1.0' Date='2025-4-21'
+!!SBtab TableID='Configuration' TableType='Config' TableName='Configuration' SBtabVersion='1.0'
+!Option	!Value	!Comment
+algorithm	MDF	ECM, or MDF
+p_h	7	
+ionic_strength	250 mM	
+p_mg	3	
+dg_confidence	0.95	
+
+!!SBtab TableID='Reaction' TableType='Reaction' TableName='Reaction' SBtabVersion='1.0'
+!ID	!ReactionFormula
+ISOCITDEH-RXN	C00011 + C00005 + C00026 <=> C00006 + C00311
+RXN-13029	C00136 + C00011 <=> C18026 + C00080
+PHOSACETYLTRANS-RXN	C00227 + C00010 <=> C00024 + C00009
+2.8.3.7-RXN	C01011 + C00042 <=> C00091 + C00815
+RXN-9092	C00002 + C00010 + C00989 <=> C00020 + C00013 + C11062
+S-2-METHYLMALATE-DEHYDRATASE-RXN	C00815 <=> C01732 + C00001
+RXN-7566	C00037 + C00080 + C00009 + C00342 <=> C00227 + C00014 + C00343 + C00001
+METHYLASPARTATE-MUTASE-RXN	C03618 <=> C00025
+RXN-13230	C06028 <=> C18323
+RXN-8965	C18323 + C00001 <=> C01011
+4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN	C00004 + C00080 + C00232 <=> C00003 + C00989
+METHYLASPARTATE-AMMONIA-LYASE-RXN	C00014 + C01732 <=> C03618
+RXN-16391	C18026 <=> C20238
+RXN-8958	C20238 <=> C18324
+BUTYRYL-COA-DEHYDROGENASE-RXN	C00877 + ETF__45__Reduced <=> C00136 + C04253 + C00080
+GLYCINE-AMINOTRANSFERASE-RXN	C00025 + C00048 <=> C00037 + C00026
+RXN-8890	C11062 <=> C00877 + C00001
+RXN-8959	C18324 + C04253 + C00080 <=> C06028 + ETF__45__Reduced
+ISOCIT-CLEAV-RXN	C00311 <=> C00048 + C00042
+RXN-8891	C00005 + C00080 + C00091 <=> C00010 + C00006 + C00232
+
+!!SBtab TableID='Compound' TableType='Compound' TableName='Compound' SBtabVersion='1.0'
+!ID	!Identifiers
+C11062	kegg:C11062
+ETF__45__Reduced	bigg.metabolite:ETF__45__Reduced
+C00042	kegg:C00042
+C18324	kegg:C18324
+C00232	kegg:C00232
+C00009	kegg:C00009
+C00011	kegg:C00011
+C00311	kegg:C00311
+C00013	kegg:C00013
+C00080	kegg:C00080
+C00004	kegg:C00004
+C00003	kegg:C00003
+C00136	kegg:C00136
+C00010	kegg:C00010
+C00005	kegg:C00005
+C00001	kegg:C00001
+C00343	kegg:C00343
+C00020	kegg:C00020
+C18026	kegg:C18026
+C00024	kegg:C00024
+C00227	kegg:C00227
+C18323	kegg:C18323
+C20238	kegg:C20238
+C06028	kegg:C06028
+C00025	kegg:C00025
+C01011	kegg:C01011
+C00002	kegg:C00002
+C00342	kegg:C00342
+C00026	kegg:C00026
+C00048	kegg:C00048
+C01732	kegg:C01732
+C00091	kegg:C00091
+C00037	kegg:C00037
+C00006	kegg:C00006
+C04253	kegg:C04253
+C00989	kegg:C00989
+C00815	kegg:C00815
+C00877	kegg:C00877
+C03618	kegg:C03618
+C00014	kegg:C00014
+
+!!SBtab TableID='Flux' TableType='Quantity' TableName='Flux' SBtabVersion='1.0' Unit='mM/s'
+!QuantityType	!Reaction	!Value
+rate of reaction	ISOCITDEH-RXN	5.0
+rate of reaction	RXN-13029	5.0
+rate of reaction	PHOSACETYLTRANS-RXN	5.0
+rate of reaction	2.8.3.7-RXN	5.0
+rate of reaction	RXN-9092	5.0
+rate of reaction	S-2-METHYLMALATE-DEHYDRATASE-RXN	5.0
+rate of reaction	RXN-7566	5.0
+rate of reaction	METHYLASPARTATE-MUTASE-RXN	5.0
+rate of reaction	RXN-13230	5.0
+rate of reaction	RXN-8965	5.0
+rate of reaction	4-HYDROXYBUTYRATE-DEHYDROGENASE-RXN	5.0
+rate of reaction	METHYLASPARTATE-AMMONIA-LYASE-RXN	5.0
+rate of reaction	RXN-16391	5.0
+rate of reaction	RXN-8958	5.0
+rate of reaction	BUTYRYL-COA-DEHYDROGENASE-RXN	5.0
+rate of reaction	GLYCINE-AMINOTRANSFERASE-RXN	5.0
+rate of reaction	RXN-8890	5.0
+rate of reaction	RXN-8959	5.0
+rate of reaction	ISOCIT-CLEAV-RXN	5.0
+rate of reaction	RXN-8891	5.0
+
+!!SBtab TableID='ConcentrationConstraint' TableType='Quantity' TableName='ConcentrationConstraint' SBtabVersion='1.0' Unit='mM'
+!QuantityType	!Compound	!Min	!Max
+concentration	C11062	0.001	10
+concentration	ETF__45__Reduced	0.001	10
+concentration	C00042	0.001	10
+concentration	C18324	0.001	10
+concentration	C00232	0.001	10
+concentration	C00009	0.001	10
+concentration	C00011	0.001	10
+concentration	C00311	0.001	10
+concentration	C00013	0.001	10
+concentration	C00080	0.001	10
+concentration	C00004	0.001	10
+concentration	C00003	0.001	10
+concentration	C00136	0.001	10
+concentration	C00010	0.001	10
+concentration	C00005	0.001	10
+concentration	C00001	0.001	10
+concentration	C00343	0.001	10
+concentration	C00020	0.001	10
+concentration	C18026	0.001	10
+concentration	C00024	0.001	10
+concentration	C00227	0.001	10
+concentration	C18323	0.001	10
+concentration	C20238	0.001	10
+concentration	C06028	0.001	10
+concentration	C00025	0.001	10
+concentration	C01011	0.001	10
+concentration	C00002	0.001	10
+concentration	C00342	0.001	10
+concentration	C00026	0.001	10
+concentration	C00048	0.001	10
+concentration	C01732	0.001	10
+concentration	C00091	0.001	10
+concentration	C00037	0.001	10
+concentration	C00006	0.001	10
+concentration	C04253	0.001	10
+concentration	C00989	0.001	10
+concentration	C00815	0.001	10
+concentration	C00877	0.001	10
+concentration	C03618	0.001	10
+concentration	C00014	0.001	10
+
